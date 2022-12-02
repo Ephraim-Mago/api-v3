@@ -4,9 +4,9 @@ namespace Config\Database;
 
 abstract class Connection
 {
-    private static $dsn = 'mysql:dbname=api-v3;host=localhost';
-    private static $db_user = 'root';
-    private static $db_password = '';
+    private static $dsn = 'mysql:dbname=freedb_db_api_v3;host=sql.freedb.tech';
+    private static $db_user = 'freedb_freedb_db_api_v3';
+    private static $db_password = '!H2bR8WmQaKucHs';
     private static $db_attributes = [
         \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
         \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_OBJ,
